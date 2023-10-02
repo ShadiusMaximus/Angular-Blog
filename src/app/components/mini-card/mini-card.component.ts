@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-mini-card',
@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./mini-card.component.css']
 })
 export class MiniCardComponent {
+
+  @Input()
+  miniPicCover:string = ""
+  @Input()
+  miniCardTitle:string = ""
+
+  constructor() { }
+
+  ngOnInit(): void {}
 
 }
