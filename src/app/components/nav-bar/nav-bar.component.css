@@ -1,0 +1,14 @@
+.container_nav-bar{
+  margin-top: 20px;
+  align-items: center;
+}
+
+.container_nav-bar > ul{
+  display: flex;
+  flex: row;
+}
+
+.container_nav-bar > ul > li{
+  margin-right: 20px;
+  list-style: none;
+}

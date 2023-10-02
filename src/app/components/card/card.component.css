@@ -1,0 +1,30 @@
+.container_card{
+  margin-left: 10px;
+  margin-right: 10px;
+
+  width: 400px;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.card_title >h1 {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.card_text{
+  margin-top: 10px;
+}
+
+.card_text > p > a {
+  color: grey;
+}
+
+.card_pic > img {
+  min-width: 400px;
+  width: 100%;
+}
