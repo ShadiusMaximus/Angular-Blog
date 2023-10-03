@@ -11,6 +11,8 @@ export class MiniCardComponent {
   miniPicCover:string = ""
   @Input()
   miniCardTitle:string = ""
+  @Input()
+  id:string = "0"
 
   constructor() { }
 

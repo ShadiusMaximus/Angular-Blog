@@ -8,6 +8,7 @@ import { CardComponent } from './components/card/card.component';
 import { MiniCardComponent } from './components/mini-card/mini-card.component';
 import { BlogTitleComponent } from './components/blog-title/blog-title.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { HomeComponent } from './pages/home/home.component';
     MiniCardComponent,
     BlogTitleComponent,
     HomeComponent,
+    ContentComponent,
   ],
   imports: [
     BrowserModule,
